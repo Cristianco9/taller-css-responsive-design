@@ -122,97 +122,20 @@ html {
 
 /* Desde 300px */
 @media (min-width: 300px) {
-    .body {
-        font-size: 1.2rem;
-    }
 
-    .header__title {
-        font-size: 2.8rem;
-    }
-
-    .nav__list {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .main {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card, .aside {
-        width: 100%;
-        max-width: 45rem;
-    }
 }
 
 /* Desde 600px */
 @media (min-width: 600px) {
-    .body {
-        font-size: 1.4rem;
-    }
 
-    .main {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    .content {
-        flex: 2;
-    }
-
-    .aside {
-        flex: 1;
-    }
-
-    .card__title {
-        font-size: 2rem;
-    }
 }
 
 /* Desde 900px */
 @media (min-width: 900px) {
-    .body {
-        font-size: 1.6rem;
-    }
 
-    .nav__list {
-        gap: 2rem;
-    }
-
-    .content {
-        flex-direction: row;
-    }
-
-    .card {
-        flex: 1;
-    }
 }
 
 /* Desde 1200px */
 @media (min-width: 1200px) {
-    .body {
-        font-size: 1.8rem;
-    }
 
-    .header {
-        text-align: left;
-    }
-
-    .nav__list {
-        justify-content: flex-start;
-    }
-
-    .content {
-        flex-direction: column;
-    }
-
-    .footer {
-        font-size: 1.6rem;
-    }
 }
